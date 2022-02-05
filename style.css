@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    width: 100%;
+}
+
+.caixa-superior{
+    background-image: url(dev.png);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.cabecalho{
+    padding: 25px 0 0 35px;
+}
+.titulo-cabecalho{
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+.link-cabecalho{
+    font-size: 17px;
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-cabecalho:hover{
+    color: #0d1949;
+    font-weight: 600;
+}
+h1{
+    font-size: 58px;
+    color: white;
+    position: relative;
+    top: 398px;
+    margin-left: 28px;
+}
+form{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: white;
+    float: right;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 110px;
+}
+.mostrar-formulario{
+    visibility: visible;
+    opacity: 1;
+}
+.esconder-formulario{
+    visibility: hidden;
+    opacity: 0;
+}
+input{
+    display: block;
+    background-color: #f9f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+textarea{
+    display: block;
+    background-color: #f9f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.titulo-formulario{
+    font-size: 24px;
+    color: #252b42;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 15px;
+    color: #252b42;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #40bb40;
+    color: white;
+    cursor: pointer;
+    
+    
+
+}
+.caixa-central{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+}
+#titulo-meio{
+    font-size:40px;
+    color: #252b42;
+    text-align: center;
+    margin: 50px 0 ;  
+}
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #a9d6ff;
+
+}
+.titulo-card{
+    background-color: #219653;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+ul{
+    padding: 20px;
+
+}
+li{
+    margin: 0 0 5px 15px;
+}
+.caixa-inferior{
+    background-color: rgb(6, 6, 80);
+}
+#titulo-inferior{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.paragrafo-inferior{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
+@media(max-width:425px){
+    .caixa-central,.caixa-inferior,.caixa-superior{
+        width: 100%;
+        margin: auto;
+
+}
+.titulo-cabecalho{
+    text-align: center;
+    width: 30%;
+    margin-left: 30px;
+}
+.link-cabecalho{
+    width: 70%;
+    float: left;
+    margin: 10px 0 0 -20px;
+}
+.link-cabecalho:visited{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+   font-size: 30px;
+   color: red;
+   position: relative;
+   top: 0;
+   visibility: hidden;
+}
+#formulario-contato{
+    width: 100%;
+    margin: 80px 0 0 0;
+    height: 410px;
+}
+input, button,textarea{
+    height: 30px; 
+    margin: 0px 0 20px 0;
+   
+    
+}
+#titulo-meio{
+    margin-top: 0;
+}
+.caixa-central{
+    display: block;
+    width: 100%;
+   
+}
+.card{
+    margin:0 auto;
+}
+ul{
+    margin-left: 25px;
+}
+
+ 
+}
